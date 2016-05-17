@@ -1,20 +1,35 @@
-table {
-    border-collapse: collapse;
+table{
+    border: 2px solid black;
 	height: 100%;
 	width: auto;
 	position: relative;
 	vertical-align: middle;
 }
 
+th {
+	border: 2px solid black;
+}
+
 .center {
 	margin: auto;
     width: 60%;
-	top: 10px;
+	top: 10%;
 	right: 10%;
+}
+
+.centred {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 h1{
 	size: 100%;
+}
+
+p{
+	font-size: x-large;
 }
 
 img {
@@ -28,6 +43,7 @@ li {
 }
 
 td {
+	border: 2px solid black;
     padding: 5%;
 }
 
@@ -57,6 +73,17 @@ a {
     text-decoration: none;
 }
 
+.button ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    overflow: hidden;
+	bottom: 0;
+	left: ;
+	position: absolute;
+}
+
+
 
 
 .speaker {
@@ -68,6 +95,7 @@ a {
 #box {
 background-color: #FFFFFF;
 width: 90%;
+height: 100%;
 margin-left: 5%;
 margin-right: auto;
 margin-top: 10px;
