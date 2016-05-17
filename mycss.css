@@ -101,13 +101,3 @@ a {
 	position: absolute;
 }
 
-#box {
-background-color: #FFFFFF;
-width: 90%;
-height: 100%;
-margin-left: 5%;
-margin-right: auto;
-margin-top: 10px;
-border-radius: 10px;
-position: relative;
-}
