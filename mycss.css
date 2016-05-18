@@ -28,6 +28,10 @@ h1{
 	size: 100%;
 }
 
+ol{
+	font-size: xx-large;
+}
+
 p{
 	font-size: x-large;
 }
@@ -47,9 +51,6 @@ img {
 	display: block;
 }
 
-li {
-	float: right;
-}
 
 td {
 	border: 2px solid black;
@@ -82,6 +83,10 @@ a {
     text-decoration: none;
 }
 
+.button li {
+	float: right;
+}
+
 .button ul {
 	list-style-type: none;
     margin: 0;
@@ -91,9 +96,6 @@ a {
 	left: ;
 	position: absolute;
 }
-
-
-
 
 .speaker {
 	right: 0;
