@@ -1,7 +1,7 @@
 table{
     border: 2px solid black;
 	height: 100%;
-	width: auto;
+	width: 100%;
 	position: relative;
 	vertical-align: middle;
 }
@@ -10,18 +10,14 @@ th {
 	border: 2px solid black;
 }
 
-.center {
-	margin: auto;
-    width: 60%;
-	top: 10%;
-	right: 10%;
+td {
+	border: 2px solid black;
+    padding: 5%;
+	width: 25%;
 }
 
-.centred {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+a {
+	font-size: 26px;
 }
 
 h1{
@@ -33,14 +29,31 @@ ol{
 }
 
 p{
-	font-size: x-large;
+	font-size: xx-large;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
 	position: relative;
+	display: block;
+	margin: 0 auto;
 }
+
+.center {
+	margin: auto;
+    width: 50%;
+	top: 10%;
+
+}
+
+.centred {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 
 .figures span{
 	display: block;
@@ -51,15 +64,6 @@ img {
 	display: block;
 }
 
-
-td {
-	border: 2px solid black;
-    padding: 5%;
-}
-
-a {
-	font-size: 26px;
-}
 
 .nav li {	
 	float: right;
