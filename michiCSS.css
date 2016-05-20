@@ -1,0 +1,105 @@
+table{
+    border: 2px solid black;
+	height: 100%;
+	width: auto;
+	position: relative;
+	vertical-align: middle;
+}
+
+th {
+	border: 2px solid black;
+}
+
+.center {
+	margin: auto;
+    width: 60%;
+	top: 10%;
+	right: 10%;
+}
+
+.centred {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1{
+	size: 100%;
+}
+
+ol{
+	font-size: xx-large;
+}
+
+p{
+	font-size: x-large;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.figures span{
+	display: block;
+	font-size: x-large;
+}
+
+.figures img {
+	display: block;
+}
+
+
+td {
+	border: 2px solid black;
+    padding: 5%;
+}
+
+a {
+	font-size: 26px;
+}
+
+.nav li {	
+	float: right;
+}
+
+.nav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	bottom: 0;
+	right: 0;
+	position: absolute
+}
+
+.nav li a {
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.button li {
+	float: right;
+}
+
+.button ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    overflow: hidden;
+	bottom: 0;
+	left: ;
+	position: absolute;
+}
+
+.speaker {
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+
