@@ -54,6 +54,8 @@ img {
 	transform: translate(-50%, -50%);
 }
 
+.incorrect(
+)
 
 .figures span{
 	display: block;
@@ -99,6 +101,11 @@ img {
 	bottom: 0;
 	left: ;
 	position: absolute;
+}
+
+.button img {
+	width: 40%;
+	height: auto%;
 }
 
 .speaker {
