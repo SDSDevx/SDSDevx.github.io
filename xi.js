@@ -22,15 +22,15 @@ pic2.onclick = function() {
 pic3.onclick = function() {
 		localStorage.setItem(question, "incorrect");
 	}
-loginButt.onclick=function(){
+//loginButt.onclick=function(){
 	//localStorage.setItem("SPname", SPname.value);
 	//ocalStorage.setItem("Pname", Pname.value);
-	window.location.assign("https://sdsdevx.github.io/menu.html");
-}
+	//window.location.assign("https://sdsdevx.github.io/menu.html");
+//
 function save() {
 	localStorage.setItem("SPname", SPname.value);
 	localStorage.setItem("Pname", Pname.value);
-	window.location.assign("https://sdsdevx.github.io/menu.html");
+	
 	
 }
 
