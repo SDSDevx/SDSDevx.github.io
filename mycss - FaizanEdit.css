@@ -75,7 +75,7 @@ position: relative;
 .navbar li 	{
             padding-bottom: 10px;
 			height: auto;
-			width: 150px;  /* Each menu item is 150px wide */
+			width: 400px;  /* Each menu item is 150px wide */
 			/*float: left;   This lines up the menu items horizontally */
             object-position: top;
 			text-align: center;  /* All text is placed in the center of the box */
@@ -102,7 +102,7 @@ position: relative;
 		display: none; /* Hides the drop-down menu */									
 		margin: 0; /* Aligns drop-down box underneath the menu item */
 		padding: 0; /* Aligns drop-down box underneath the menu item */		
-        margin-left:150px;
+        margin-left:400px;
         float:left;
         margin-top: -45px;
         height: 0;
@@ -116,7 +116,7 @@ position: relative;
                         }
 
 .navbar li ul li {
-    background-color: #2ba6ff;
+    background-color: #ffffff;
 }
 
 .navbar li ul li a 	{
