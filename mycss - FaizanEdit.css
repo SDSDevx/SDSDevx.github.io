@@ -1,0 +1,132 @@
+table {
+    border-collapse: collapse;
+	height: 100%;
+	width: auto;
+	position: relative;
+	vertical-align: middle;
+}
+
+.center {
+	margin: auto;
+    width: 60%;
+	top: 10px;
+	right: 10%;
+}
+
+h1{
+	size: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+
+td {
+    padding: 5%;
+}
+
+a {
+	font-size: 26px;
+}
+
+.buttons {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.speaker {
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+
+#box {
+background-color: #FFFFFF;
+width: 60%;
+margin-left: 5%;
+margin-right: auto;
+margin-top: 10px;
+border-radius: 10px;
+position: relative;
+}
+
+#wrap {
+	width: 150px; 
+	height: 50px; 
+    padding-bottom: 10px;
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 1; /* Makes sure that your menu remains on top of other page elements */
+	position: fixed;
+	background-color: RoyalBlue;
+    
+	}
+.navbar	{
+	height: 50px;
+    padding: 0;
+    padding-bottom: 10px;
+	margin: 0;
+	position: fixed; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #54879d; 
+    z-index: 12;
+	}
+.navbar li 	{
+            padding-bottom: 10px;
+			height: auto;
+			width: 150px;  /* Each menu item is 150px wide */
+			/*float: left;   This lines up the menu items horizontally */
+            object-position: top;
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: RoyalBlue;
+                        }
+.navbar a	{							
+		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #0026ff; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid #0026ff; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: #000; /* Text color is black */
+		display: block;
+		}
+
+.navbar li:hover, a:hover {
+    //background-color: rgba(4, 6, 0, 0.00);
+}
+
+.navbar li ul 	{
+		display: none; /* Hides the drop-down menu */									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */		
+        margin-left:150px;
+        float:left;
+        margin-top: -45px;
+        height: 0;
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        z-index: 12;
+                        padding-left: 1px;
+                       
+                        }
+
+.navbar li ul li {
+    background-color: #2ba6ff;
+}
+
+.navbar li ul li a 	{
+		border-left: 1px solid #0026ff;
+		border-right: 1px solid #0026ff;
+		border-top: 1px solid #0026ff;
+        z-index: 1001;
+		}
+
+.navbar li ul li a:hover {
+    background-color: #0094ff;
+    z-index: 1000;
+}
