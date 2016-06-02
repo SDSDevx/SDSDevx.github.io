@@ -13,10 +13,7 @@ function prepareEventHandlers(){
 		audio.play();
 	}
 
-	myButton.onclick=function{
-		myButton class="changeBackground";
-	}
-
+	
 
 }
 
