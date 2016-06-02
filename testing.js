@@ -1,6 +1,6 @@
 function prepareEventHandlers(){
 	
-	var myImage=document.getElementById("fork");
+	var forkButton=document.getElementById("fork");
 	var myButton=document.getElementById("ratButton");
 
 	
@@ -13,7 +13,15 @@ function prepareEventHandlers(){
 		audio.play();
 	}
 
-	
+	//forkButton.onclick=function(){
+		//forkButton.style.backgroundColor = "red";
+	//}
+
+	function changeBack(){
+		document.body.style.backgroundColor = "red";
+		audio.play();
+	}
+
 
 }
 
