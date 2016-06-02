@@ -1,10 +1,3 @@
-//var newHeading = document.createElement("h1");
-//var h1Text = document.createTextNode("This is a test");
-
-
-//newHeading.appendChild(h1Text);	
-//document.getElementById("test").appendChild(newHeading);
-
 function prepareEventHandlers(){
 	
 	var myImage=document.getElementById("fork");
