@@ -18,6 +18,7 @@ function prepareEventHandlers(){
 	login.onclick=function(){
 		if(span.checked){
 			window.location.assign("https://sdsdevx.github.io/menuSpanish.html")
+		
 		} else {
 			window.location.assign("https://sdsdevx.github.io/menu.html")
 			}
