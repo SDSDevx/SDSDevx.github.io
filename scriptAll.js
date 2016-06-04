@@ -15,13 +15,14 @@ function prepareEventHandlers(){
 	var perro=new Audio('perro.mp3');
 
 
-login.onclick=function(){
-	if(span.checked){
-		alert("hello");
-		window.location.assign("https://sdsdevx.github.io/menuSpanish.html")
-	}
-	
-}
+	login.onclick=function(){
+		if(span.checked){
+			window.location.assign("https://sdsdevx.github.io/menuSpanish.html")
+		} else {
+			window.location.assign("https://sdsdevx.github.io/menu.html")
+			}
+		}
+
 
 	speaker.onclick=function(){
 		perro.play();
