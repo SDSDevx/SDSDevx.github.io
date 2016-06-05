@@ -7,15 +7,30 @@ var question = $('#qname').html();
 //var Pname = document.getElementById("Pname");
 //var loginButt = document.getElementById("loginButt");
 
-
+$('#report').click(function() {
+//var table = document.createElement("table")
 var output = "";
 for(var key in sessionStorage) { 
     output += key+"\n";
-    output += sessionStorage[key]+"\n";
+    output += sessionStorage[key] +"\n";
     output += "\n";
 }
 
-$('#sendmail').click(function() {
+var keyvalue = output.split(";");
+
+//document.write(keyvalue.length)
+//for (var i = 1; i < keyvalue.length; i++) {
+  for (var i = keyvalue.length - 1; i >= 0; i--) {
+  document.getElementById("test").innerHTML += keyvalue[i] + "<br />";
+ }
+//document.write(output.split("\;"));
+//for (var i=0; i<output.length; i++) {
+  //document.write("<tr><td>Number " + i + " is:</td>");
+  //document.write("<td>" + output[i] + "</td></tr>");
+//}
+});
+
+/**$('#sendmail').click(function() {
 	var output = "";
 for(var key in sessionStorage) { 
     output += key+"\n";
@@ -26,7 +41,7 @@ for(var key in sessionStorage) {
 	+ "?cc="
 	+ "&subject=testing"
 	+ "&body=" + output;
-});
+}); **/
 
 //<a href='mailto:user@domain?subject=[subject here]&body=[email body here]'></a>
 
@@ -62,26 +77,26 @@ for(var key in sessionStorage) {
     anchor.dispatchEvent(clickEv)
 }**/
 $('#correct').click(function(){
-	sessionStorage.setItem(question, "correct");
+	sessionStorage.setItem(question, "correct" + ";");
 });
 
 $('#pic1').click(function(){
-	sessionStorage.setItem(question, "incorrect");
+	sessionStorage.setItem(question, "incorrect" + ";");
 });
 
 $('#pic2').click(function(){
-	sessionStorage.setItem(question, "incorrect");
+	sessionStorage.setItem(question, "incorrect" + ";");
 });
 
 $('#pic3').click(function(){
-	sessionStorage.setItem(question, "incorrect");
+	sessionStorage.setItem(question, "incorrect" + ";");
 });
 
 $('#storage').click(function(){
 	var SPname = $('#SPname');
 	var Pname = $('#Pname');
-	sessionStorage.setItem("SPname", SPname.val());
-	sessionStorage.setItem("Pname", Pname.val());
+	sessionStorage.setItem("SP NAME", SPname.val() + ";");
+	sessionStorage.setItem("PATIENT NAME", Pname.val() + ";");
 	window.location.href = 'menu.html';
 });
 
