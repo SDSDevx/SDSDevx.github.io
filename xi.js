@@ -8,7 +8,6 @@ var question = $('#qname').html();
 //var loginButt = document.getElementById("loginButt");
 
 $('#report').click(function() {
-//var table = document.createElement("table")
 var output = "";
 for(var key in sessionStorage) { 
     output += key+"\n";
@@ -17,7 +16,7 @@ for(var key in sessionStorage) {
 }
 
 var keyvalue = output.split(";");
-
+var email = 'xi_zhong@live.com';
 //document.write(keyvalue.length)
 //for (var i = 1; i < keyvalue.length; i++) {
   for (var i = keyvalue.length - 1; i >= 0; i--) {
@@ -28,6 +27,7 @@ var keyvalue = output.split(";");
   //document.write("<tr><td>Number " + i + " is:</td>");
   //document.write("<td>" + output[i] + "</td></tr>");
 //}
+mailto: 'xi_zhong@live.com' + '?body=' + keyvalue
 });
 
 /**$('#sendmail').click(function() {
@@ -100,33 +100,4 @@ $('#storage').click(function(){
 	window.location.href = 'menu.html';
 });
 
-$('#loginButt').click(function(){
-	window.location.href = 'menu.html';
-});
-/**function right(){
-	var correctimage = document.getElementById("correct");
-	sessionStorage.setItem(question, "correct");
-	}
-				
-function wrong() {
-	var pic1 = document.getElementById("pic1");
-	sessionStorage.setItem(question, "incorrect");
-	}
-	
-pic2.onclick = function() {
-	var pic2 = document.getElementById("pic2");
-	sessionStorage.setItem(question, "incorrect");
-	}
-	
-pic3.onclick = function() {
-	var pic3 = document.getElementById("pic3");
-	sessionStorage.setItem(question, "incorrect");
 
-
-function save() {
-	var SPname = document.getElementById("SPname");
-	var Pname = document.getElementById("Pname");
-	sessionStorage.setItem("SPname", SPname.value);
-	sessionStorage.setItem("Pname", Pname.value);
-}
-**/
