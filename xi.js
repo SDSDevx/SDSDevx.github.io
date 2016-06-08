@@ -27,7 +27,20 @@ var email = 'xi_zhong@live.com';
   //document.write("<tr><td>Number " + i + " is:</td>");
   //document.write("<td>" + output[i] + "</td></tr>");
 //}
-mailto: 'xi_zhong@live.com' + '?body=' + keyvalue
+
+});
+
+$('#mail').click(function() {
+var output = "";
+for(var key in sessionStorage) { 
+    output += key+"\n";
+    output += sessionStorage[key] +"\n";
+    output += "\n";
+}
+
+var keyvalue = output.split(";");
+
+document.location.href = "mailto:?body=" + encodeURIComponent(keyvalue);
 });
 
 /**$('#sendmail').click(function() {
