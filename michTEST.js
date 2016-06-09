@@ -6,7 +6,7 @@ function prepareEventHandlers(){
 	var speaker = document.getElementById("speakerIcon");
 	var audio=new Audio('AC_Spanish_Spoken_1.mp3');
 	var perro = new Audio('perro.mp3');
-
+	
 	var skip = document.getElementById("skip");
 	skip.onclick=function(){
 		window.location.assign("https://sdsdevx.github.io/menuSpanish.html")
