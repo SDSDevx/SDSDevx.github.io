@@ -1,4 +1,5 @@
 var question = $('#qname').html();
+
 //var correctimage = document.getElementById("correct");
 //var pic1 = document.getElementById("pic1");
 //var pic2 = document.getElementById("pic2");
