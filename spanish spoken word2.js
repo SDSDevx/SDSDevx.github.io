@@ -4,7 +4,7 @@ function prepareEventHandlers(){
 	var myButton=document.getElementById("ratButton");
 
 	var question=document.getElementById("question");
-	var perro=new Audio("perro.mp3");
+	var taza=new Audio("taza.mp3");
 
 	var speaker = document.getElementById("speakerIcon");
 	var audio=new Audio('spanish spoken word.mp3');
@@ -15,7 +15,7 @@ function prepareEventHandlers(){
 	}
 
 	question.onclick=function(){
-		perro.play();
+		taza.play();
 	}
 
 }
