@@ -3,6 +3,7 @@ function prepareEventHandlers(){
 	//var forkButton=document.getElementById("fork");
 	//var myButton=document.getElementById("ratButton");
 	var question = document.getElementById("question");
+
 	
 
 	var speaker = document.getElementById("speakerIcon");
@@ -10,12 +11,12 @@ function prepareEventHandlers(){
 	var perro = new Audio('perro.mp3')
 
 
-	speaker.onclick=function(){
+	question.onclick=function(){
 		audio.play();
 	}
 
 }
-	question.onclick=function(){
+	speaker.onclick=function(){
 		perro.play();
 	}
 
