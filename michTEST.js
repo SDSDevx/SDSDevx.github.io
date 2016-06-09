@@ -15,10 +15,11 @@ function prepareEventHandlers(){
 		audio.play();
 	}
 
-}
+	
 	speaker.onclick=function(){
 		perro.play();
 	}
+}
 
 window.onload=function(){
 	prepareEventHandlers();
