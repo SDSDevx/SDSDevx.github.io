@@ -8,7 +8,7 @@ function prepareEventHandlers(){
 
 	var speaker = document.getElementById("speakerIcon");
 	var audio=new Audio('AC_Spanish_Spoken_1.mp3');
-	var perro = new Audio('perro.mp3')
+	var perro = new Audio('perro.mp3');
 
 
 	question.onclick=function(){
