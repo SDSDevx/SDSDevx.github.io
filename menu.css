@@ -44,7 +44,7 @@
 #menu-v li ul
 {
     position: absolute;
-    width: 120px; /*Sub Menu Items width */
+    width: 200px; /*Sub Menu Items width */
     visibility:hidden;
 }
         
