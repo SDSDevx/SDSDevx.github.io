@@ -6,6 +6,10 @@ function prepareEventHandlers(){
 	var speaker = document.getElementById("speakerIcon");
 	var audio=new Audio('AC_Spanish_Spoken_1.mp3');
 	var perro = new Audio('perro.mp3');
+	//var skipSpan =document.getElementById("skipSpan");
+	//skipSpan.onclick=function(){
+	//	window.location.assign("https://sdsdevx.github.io/AC_Spanish_Spoken Word 2.html") 
+	//}
 
 	var skip = document.getElementById("skip");
 	skip.onclick=function(){
